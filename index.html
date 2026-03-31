@@ -259,19 +259,19 @@
 
         <div class="polaroid-gallery">
             <div class="polaroid">
-                <img src="../5dadb2cd-bba2-4d35-9104-59f475005a3a.jpg" alt="Memory 1">
+                <img src="../5dadb2cd-bba2-4d35-9104-59f475005a3a.jpg">
                 <div class="polaroid-caption"></div>
             </div>
             <div class="polaroid">
-                <img src="../6cbe4811-f255-454d-998f-5db1d2e8f711.jpg" alt="Memory 2">
+                <img src="../6cbe4811-f255-454d-998f-5db1d2e8f711.jpg">
                 <div class="polaroid-caption"></div>
             </div>
             <div class="polaroid">
-                <img src="../0abe4160-a274-4ff4-8c86-adb0f4aed367.jpg" alt="Memory 3">
+                <img src="../0abe4160-a274-4ff4-8c86-adb0f4aed367.jpg">
                 <div class="polaroid-caption"></div>
             </div>
             <div class="polaroid">
-                <img src="../fa9f1117-e324-4074-ae74-79c28883d4da.jpg" alt="Memory 4">
+                <img src="../fa9f1117-e324-4074-ae74-79c28883d4da.jpg">
                 <div class="polaroid-caption"></div>
             </div>
         </div>
@@ -310,12 +310,9 @@
         }
 
         function startMusic() {
-            const audio = new Audio('../LANY - Soft (Official Lyric Video).mp3');
-            audio.controls = true;
-            audio.autoplay = true;
-            audio.loop = true;
-            audio.play();
-            document.getElementById('audioContainer').appendChild(audio);
+            <audio controls autoplay loop.
+                <source src="Audio/Lany - Soft (official Lyric Video).mp3" type="audio/mpeg">
+                </audio>
         }
 
         passwordBtn.addEventListener('click', () => {
